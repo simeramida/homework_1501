@@ -1,0 +1,185 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 0, 255;
+  --background-end-rgb: 128, 128, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 255, 0, 255;
+    --background-end-rgb: 128, 128, 255;
+  }
+}
+
+body {
+  height:100%;
+}
+
+/*main page*/
+
+.background-image {
+  background-image: linear-gradient(rgba(106, 81, 113, 0.5), rgba(130, 73, 108, 0.5));
+  height: 100%;
+  margin:auto
+}
+.hero-image{
+  background-image: linear-gradient(rgba(120, 20, 201, 0.5), rgba(21, 76, 108, 0.5)), url("/images/interpretation.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  color: rgb(208, 228, 229);
+  top: 40px;
+  left: 40px;
+  font-family: 'Lucida Sans Unicode';
+  font-size:x-large;
+
+}
+.hero-paragraph{
+  text-align:justify;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: rgb(0, 2, 7);
+  font-family: 'Lucida Sans Unicode';
+  font-size: large;
+  
+
+}
+.hero-list{
+  text-align:center;
+  position: relative;
+  color: rgb(0, 2, 7);
+  font-family: 'Lucida Sans Unicode';
+  font-size: large;
+  list-style-type: circle;
+  list-style-position: inside;
+  
+}
+
+
+/*service page*/
+
+
+.service-text{
+  margin-top: 5px;
+  text-align: center;
+  font-family: 'Lucida Sans Unicode';
+  font-size: larger;
+  font-weight: 300;
+  font-style: italic;
+  }
+  
+  .serviceimage{
+    width: 80%;
+    height: 80%;
+    margin:auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    }
+ .services {
+    font-family: 'Lucida Sans Unicode';
+    font-size: large;
+    font-weight: 300;
+    
+    
+}
+.translation{
+  margin-left:40px;
+  text-align:center;
+  align-content:center;
+  text-decoration-line: underline;
+}
+.translation-list{
+  margin-left:40px;
+  text-align:center;
+  align-content:center;
+    }
+.interpretation{
+  margin-right:50px;
+  text-align:center;
+  align-content:center;
+  text-decoration-line: underline;
+  }
+.interpretation-list{
+  margin-right:50px;
+  text-align:center;
+  align-content:center;
+  }
+
+  .p2service{
+    align-content: center;
+    text-align: justify;
+    font-size: large;
+    font-family: 'Lucida Sans Regular';
+    font-style: italic;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    
+  }
+
+/*contact page*/
+
+.background-image{
+  background-image: linear-gradient(rgba(166, 66, 197, 0.5), rgba(244, 42, 167, 0.5));
+  height: 100%;
+  margin:auto
+
+}
+.contact-header{
+  position: relative;
+  margin-left: 45%;
+  align-items: center;
+  margin-top: 0px;
+  font-size: x-large;
+  font-family: 'Lucida Sans Regular';
+  font-weight: bold;
+  color: rgb(126, 15, 98);
+}
+#contact_form{
+    background-color: #fafafa;
+    position: relative;
+    margin: auto;
+    margin-top: 0px;
+    padding: 10px;
+    width: 500px;
+    color: rgb(89, 23, 92);
+    border-radius: 20px;
+        
+  }
+  label, input, textarea{
+    display: block;	
+  }
+  input, textarea{
+    width: 100%;
+    outline-color: rgb(226, 128, 43);
+    border-radius: 20px;
+    font-family: 'SLucida Sans Unicode';
+    font-size: 1em;
+    color: #020d6b;
+  
+    
+  }
+  textarea{
+    height: 100px;	
+    resize: none; 
+    
+  }
+  
+
+
+
+
+
